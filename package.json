@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Kaio",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "body-parser": "^1.18.2",
@@ -17,5 +17,9 @@
   "scripts": {
     "babel": "babel-node server.js",
     "start": "npm run babel"
-  }
+  },
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  } 
 }
