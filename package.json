@@ -1,0 +1,20 @@
+{
+  "name": "express-e6",
+  "version": "1.0.0",
+  "description": "express js with es6",
+  "main": "index.js",
+  "author": "Kaio",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.12",
+    "rxjs": "^5.5.6"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  }
+}
